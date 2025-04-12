@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code in the Dark - Round 3</title>
+    <style>
+        body {
+            margin: 0;
+            background: #000000;
+            color: #00FF00;
+            font-family: 'Courier New', monospace;
+        }
+        a {
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #ffffff;
+        }
+        .topbar, .navbar, .footer {
+            background: #111111;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 0 8px #00FF00;
+        }
+        .navbar a {
+            color: #00FF00;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            padding: 60px 40px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .hero-text {
+            max-width: 50%;
+            line-height: 1.6;
+        }
+        .hero-button {
+            background: #00FF00;
+            color: #000000;
+            padding: 12px 25px;
+            border: 2px solid #00FF00;
+            cursor: pointer;
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+        .hero-button:hover {
+            background: #000000;
+            color: #00FF00;
+        }
+        .hero-image {
+            width: 320px;
+            height: 220px;
+            border: 2px solid #00FF00;
+            box-shadow: 0 0 12px #00FF00;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+            padding: 60px 40px;
+        }
+        .card {
+            background: #222222;
+            padding: 25px;
+            border: 2px solid #00FF00;
+            box-shadow: 0 0 12px #00FF00;
+            text-align: center;
+        }
+        .gallery, .testimonials {
+            display: flex;
+            gap: 25px;
+            padding: 60px 40px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .img-box {
+            width: 200px;
+            height: 150px;
+            background: #111111;
+            border: 2px solid #00FF00;
+            box-shadow: 0 0 12px #00FF00;
+        }
+        .footer {
+            justify-content: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="topbar">
+    <div>CODE IN THE DARK</div>
+</div>
+
+<div class="navbar">
+    <div><a href="#">Home</a><a href="#">About</a><a href="#">Rules</a><a href="#">Register</a></div>
+</div>
+
+<div class="hero">
+    <div class="hero-text">
+        <h1>Welcome to the Round 3</h1>
+        <p>Battle of Frontend skills with no preview. Pure Code. Pure Skill. Are you ready for the ultimate coding arena?</p>
+        <button class="hero-button">Join Now</button>
+    </div>
+    <div class="hero-image"></div>
+</div>
+
+<div class="features">
+    <div class="card">No Preview Mode</div>
+    <div class="card">Live Coding Battle</div>
+    <div class="card">Judged by Audience</div>
+    <div class="card">Time Limited Challenge</div>
+</div>
+
+<div class="gallery">
+    <div class="img-box"></div>
+    <div class="img-box"></div>
+    <div class="img-box"></div>
+</div>
+
+<div class="footer">
+    &copy; 2025 Code in the Dark Competition. All Rights Reserved.
+</div>
+
+</body>
+</html>
+<!--
+
+Main BG	#000000	Dark Background
+Text Color	#00FF00	Matrix Vibe Primary Text Color
+Accent Color	#ffffff on Hover	Hover Effects for Links & Buttons
+Fonts	Courier New, monospace	Coding Style Consistency
+Layout	Flex + Grid Responsive	Clean & Adaptive Layout
+Divs Border	2px solid #00FF00	Matrix Borders
+Box Shadows	box-shadow: 0 0 12px #00FF00	Neon Glow Effect
+Section Dividers	border-bottom: 1px solid #00FF00	Subtle Separators
+
+-->
