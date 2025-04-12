@@ -1,0 +1,34 @@
+--- The rules ---
+1) No previews - of either results or assets!
+2) Stay in this editor at all times
+3) No measurement tools
+4) Stop coding when the time's up
+5) After the round is over, press "Finish" and follow the prompt instructions to see your results
+
+Good luck and most important of all; have fun!
+
+--- Assets ---
+Fonts used: Poppins, Serif and Nunito
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+Colors used: 
+#fff
+ #333
+ #f8f9fa
+ #707b8e
+ #6c63ff
+ #4e54c8
+ #f8fcff
+ #2d2e32
+ #6c757d
+ #ff5f8f
+
+Icon: 
+play button - <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="50" height="50" fill="#fff">
+                  <circle cx="50" cy="50" r="50" fill="#DA70D6" />
+                  <polygon points="40,30 70,50 40,70" fill="#fff" />
+                </svg>
+
+Images: 
+assets/images/1st round img/image.png
+assets/images/1st round img/hero_right.png

@@ -1,0 +1,40 @@
+--- The rules ---
+1) No previews - of either results or assets!
+2) Stay in this editor at all times
+3) No measurement tools
+4) Stop coding when the time's up
+5) After the round is over, press "Finish" and follow the prompt instructions to see your results
+
+Good luck and most important of all; have fun!
+
+--- Assets ---
+Fonts used: Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+Colors: 
+#fff
+#333
+#555
+#888
+#ff6b6b
+#ffffff
+#f8f9fa
+
+
+Icons:
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+shoe prints - <i class="fas fa-shoe-prints logo-icon"></i>
+search - <i class="fas fa-search"></i>
+shopping bag - <i class="fas fa-shopping-bag"></i>
+user - <i class="fas fa-user"></i>
+arrows - <i class="fas fa-arrow-right"></i>  <i class="fas fa-chevron-left"></i>
+heart - <i class="far fa-heart">
+scan - <i class="fas fa-expand"></i>
+
+
+Images:
+hero image  - assets\images\2nd round img\red shoes.png
+1st shoe - assets\images\2nd round img\whiteshoes.png
+2nd shoe - assets\images\2nd round img\shoe3.png
+3rd shoe - assets\images\2nd round img\shoe5.png
+4th shoe - assets\images\2nd round img\shoe4.png
+5th shoe - assets\images\2nd round img\hero_1.png
