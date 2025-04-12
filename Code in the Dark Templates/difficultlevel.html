@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book App with Chat</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/difficult_round.css">
+  <style>
+
+  </style>
+</head>
+<body>
+  <!-- Main Content Area -->
+  <div class="main-content">
+    <!-- Header Section -->
+    <div class="top-nav">
+      <div class="logo">
+        <img src="assets/images/3rd round img/BookLogo.png">
+        <span class="logo-text">Bookish</span>
+      </div>
+      
+      <div class="nav-controls">
+        <div class="search-bar">
+          <i class="fas fa-search"></i>
+          <input type="text" placeholder="Search books...">
+        </div>
+        
+        <div class="notification-bell">
+          <i class="fas fa-bell"></i>
+          <span class="notification-badge">3</span>
+        </div>
+        
+        <div class="user-menu">
+          <div class="reading-progress">
+            <i class="fas fa-book-open"></i>
+            <span class="progress-time">12 min left</span>
+          </div>
+          <img src="assets/images/3rd round img/user.png" alt="User Avatar" class="user-avatar">
+        </div>
+      </div>
+    </div>
+  
+
+    <!-- Main Content -->
+    <main class="container">
+      <!-- Want to Read Section -->
+      <section class="want-to-read-section">
+        <div class="section-header">
+          <h2 class="section-title">Want to Read</h2>
+          <a href="#" class="view-all">
+            View All
+            <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+        
+        <p class="section-description">
+          Your personalized reading list. Discover new books or continue reading where you left off.
+          These recommendations are tailored based on your reading history and preferences.
+        </p>
+        
+        <div class="book-grid-container">
+          <div class="book-grid">
+            <!-- Book 1 -->
+            <div class="book-card">
+              <img src="assets/images/3rd round img/book1.png" alt="Treasure Island" class="book-cover">
+              <span class="book-badge">Bestseller</span>
+              <div class="book-details">
+                <h3 class="book-title">Treasure Island</h3>
+                <p class="book-author">Robert Louis Stevenson</p>
+                
+                <div class="book-meta">
+                  <div class="book-rating">
+                    <i class="fas fa-star"></i>
+                    <span>4.5</span>
+                  </div>
+                  <span class="book-pages">320 pages</span>
+                </div>
+                
+                <div class="progress-container">
+                  <div class="progress-label">
+                    <span>Reading progress</span>
+                    <span>65%</span>
+                  </div>
+                  <div class="progress-bar">
+                    <div class="progress-fill" style="width: 65%"></div>
+                  </div>
+                </div>
+                
+                <div class="book-actions">
+                  <button class="action-btn primary-btn">
+                    <i class="fas fa-play"></i>
+                    Continue
+                  </button>
+                  <button class="action-btn secondary-btn">
+                    <i class="fas fa-bookmark"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Book 2 -->
+            <div class="book-card">
+              <img src="assets/images/3rd round img/book2.png" alt="The Wonderful Wizard of Oz" class="book-cover">
+              <span class="book-badge">Classic</span>
+              <div class="book-details">
+                <h3 class="book-title">The Wonderful Wizard of Oz</h3>
+                <p class="book-author">L. Frank Baum</p>
+                
+                <div class="book-meta">
+                  <div class="book-rating">
+                    <i class="fas fa-star"></i>
+                    <span>4.7</span>
+                  </div>
+                  <span class="book-pages">260 pages</span>
+                </div>
+                
+                <div class="progress-container">
+                  <div class="progress-label">
+                    <span>Reading progress</span>
+                    <span>30%</span>
+                  </div>
+                  <div class="progress-bar">
+                    <div class="progress-fill" style="width: 30%"></div>
+                  </div>
+                </div>
+                
+                <div class="book-actions">
+                  <button class="action-btn primary-btn">
+                    <i class="fas fa-play"></i>
+                    Continue
+                  </button>
+                  <button class="action-btn secondary-btn">
+                    <i class="fas fa-bookmark"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Book 3 -->
+            <div class="book-card">
+              <img src="assets/images/3rd round img/book3.png" alt="The Great Gatsby" class="book-cover">
+              <span class="book-badge">Must Read</span>
+              <div class="book-details">
+                <h3 class="book-title">The Great Gatsby</h3>
+                <p class="book-author">F. Scott Fitzgerald</p>
+                
+                <div class="book-meta">
+                  <div class="book-rating">
+                    <i class="fas fa-star"></i>
+                    <span>4.8</span>
+                  </div>
+                  <span class="book-pages">180 pages</span>
+                </div>
+                
+                <div class="progress-container">
+                  <div class="progress-label">
+                    <span>Reading progress</span>
+                    <span>15%</span>
+                  </div>
+                  <div class="progress-bar">
+                    <div class="progress-fill" style="width: 15%"></div>
+                  </div>
+                </div>
+                
+                <div class="book-actions">
+                  <button class="action-btn primary-btn">
+                    <i class="fas fa-play"></i>
+                    Start
+                  </button>
+                  <button class="action-btn secondary-btn">
+                    <i class="fas fa-bookmark"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Book 4 -->
+            <div class="book-card">
+              <img src="assets/images/3rd round img/book4.png" class="book-cover">
+              <div class="book-details">
+                <h3 class="book-title">A Tale of Two Cities</h3>
+                <p class="book-author">Charles Dickens</p>
+                
+                <div class="book-meta">
+                  <div class="book-rating">
+                    <i class="fas fa-star"></i>
+                    <span>4.6</span>
+                  </div>
+                  <span class="book-pages">450 pages</span>
+                </div>
+                
+                <div class="book-actions">
+                  <button class="action-btn primary-btn">
+                    <i class="fas fa-plus"></i>
+                    Add to List
+                  </button>
+                  <button class="action-btn secondary-btn">
+                    <i class="fas fa-bookmark"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- More to Explore Section -->
+      <section id="more-to-explore">
+        <div class="section-header">
+          <h2>More to Explore</h2>
+          <a href="#" class="view-all">View All</a>
+        </div>
+        <div class="category-header">
+          <h3>Fiction & Literature</h3>
+        </div>
+        <div class="book-grid">
+          <div class="book-card">
+            <img src="assets/images/3rd round img/book5.png" class="book-cover">
+            <h3>The Great Gatsby</h3>
+            <p>F. Scott Fitzgerald</p>
+          </div>
+          <div class="book-card">
+            <img src="assets/images/3rd round img/book4.png" class="book-cover">
+            <h3>A Tale of Two Cities</h3>
+            <p>Charles Dickens</p>
+          </div>
+          <div class="book-card">
+            <img src="assets/images/3rd round img/book6.png" alt="The Catcher in the Rye" class="book-cover">
+            <h3>Pride and Prejudice</h3>
+            <p>Jane Austen</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Navigation -->
+    <footer>
+      <nav class="bottom-nav">
+        <a href="#" class="nav-item active">
+          <i class="fas fa-home"></i>
+          <span>Home</span>
+        </a>
+        <a href="#" class="nav-item">
+          <i class="fas fa-list"></i>
+          <span>Library</span>
+        </a>
+        <a href="#" class="nav-item">
+          <i class="fas fa-book"></i>
+          <span>Book Store</span>
+        </a>
+      </nav>
+    </footer>
+  </div>
+
+  <!-- Chat Sidebar -->
+  <div class="chat-sidebar">
+    <div class="chat-header">
+      <h3>Book Club Chat</h3>
+      <button class="chat-close">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    <div class="chat-messages">
+      <div class="message received">
+        <div class="message-content">
+          Hi! Have you read the new fantasy novel everyone's talking about?
+        </div>
+        <div class="message-time">10:30 AM</div>
+      </div>
+      <div class="message sent">
+        <div class="message-content">
+          Not yet! Which one are you referring to?
+        </div>
+        <div class="message-time">10:32 AM</div>
+      </div>
+      <div class="message received">
+        <div class="message-content">
+          "The Midnight Library" by Matt Haig. It's supposed to be amazing!
+        </div>
+        <div class="message-time">10:33 AM</div>
+      </div>
+      <div class="message sent">
+        <div class="message-content">
+          Oh yes! I've heard great things. Would you recommend it for our book club?
+        </div>
+        <div class="message-time">10:35 AM</div>
+      </div>
+      <div class="message received">
+        <div class="message-content">
+          Definitely! It has great discussion potential. Should I add it to our list?
+        </div>
+        <div class="message-time">10:36 AM</div>
+      </div>
+      <div class="message sent">
+        <div class="message-content">
+          Yes please! I'll check if it's available at the library.
+        </div>
+        <div class="message-time">10:38 AM</div>
+      </div>
+    </div>
+    <div class="chat-input">
+      <input type="text" placeholder="Type your message...">
+      <button>
+        <i class="fas fa-paper-plane"></i>
+      </button>
+    </div>
+  </div>
+</body>
+</html>
