@@ -33,8 +33,3 @@ scan - <i class="fas fa-expand"></i>
 
 Images:
 hero image  - assets\images\2nd round img\red shoes.png
-1st shoe - assets\images\2nd round img\whiteshoes.png
-2nd shoe - assets\images\2nd round img\shoe3.png
-3rd shoe - assets\images\2nd round img\shoe5.png
-4th shoe - assets\images\2nd round img\shoe4.png
-5th shoe - assets\images\2nd round img\hero_1.png
